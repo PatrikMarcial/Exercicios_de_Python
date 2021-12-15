@@ -1,3 +1,7 @@
+'''
+Faça um Programa que peça dois números e imprima o maior deles. Caso
+sejam iguais, nada deverá ser exibido.
+'''
 numero = float(input('Me diga um numero: '))
 numero2 = float(input('Me diga outro numero: '))
 if numero > numero2:
