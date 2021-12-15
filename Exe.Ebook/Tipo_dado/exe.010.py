@@ -1,7 +1,5 @@
-'''Programa Python para verificar se um número é positivo.'''
+'''.Programa Python para verificar se um número é positivo ou negativo'''
 
 numero = float(input('Me diga um numero: '))
-if numero > 0:
-    print(f'O numero {numero} Positivo')
-else:
-    print(f'O numero {numero} é negativo')
+positivo = numero > 0
+print(f'O numero {numero} é positivo? {positivo}')
