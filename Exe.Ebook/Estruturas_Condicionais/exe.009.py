@@ -10,7 +10,6 @@ que o terceiro;
 lado1 = float(input('Me diga o valor do primeiro lado do Triângulo: '))
 lado2 = float(input('Me diga o valor do segundo lado: '))
 lado3 = float(input('Me diga o valor do terceiro lado: '))
-equilatero = lado1 == lado2 == lado3
 
 if lado1 + lado2 > lado3 and lado1 + lado3 > lado2 and lado2 + lado3 > lado1:
     if lado1 == lado2 == lado3:
