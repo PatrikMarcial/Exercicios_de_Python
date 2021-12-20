@@ -13,4 +13,3 @@ for a in range(1, 11):
         if num < menor:
             menor = num
 print(f'O maior e menor valor desses numeros digitados foram {maior} e {menor}')
-
